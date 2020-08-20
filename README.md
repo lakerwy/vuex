@@ -10,6 +10,7 @@ vuex到底是什么？
 
 1.state: 包含了store中存储的各个状态(相当于data)
     使用：$store.state.data值
+    
 2.getters: 类似于Vue中的计算属性，根据其他getter或state计算返回值
     getters是state的一个计算属性 使用：this.$store.getters.getters方法名
 
