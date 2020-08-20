@@ -6,7 +6,7 @@ vuex到底是什么？
 这个状态我们可以理解为在data中的属性，需要共享给其他组件使用的部分。也就是说，是我们需要共享的data，使用vuex进行统一集中式的管理。
 
 
-#vuex核心 store对象，const store=new Vuex.Store({...});
+# vuex核心 store对象，const store=new Vuex.Store({...});
 
 1.state: 包含了store中存储的各个状态(相当于data)
     使用：$store.state.data值
