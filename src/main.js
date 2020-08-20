@@ -4,6 +4,7 @@ import store from './vuex/store'  //引入store
 
 Vue.config.productionTip = false
 
+
 new Vue({
   store,
   render: h => h(App),

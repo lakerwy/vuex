@@ -38,7 +38,7 @@ export default {
     }
   },
   computed: {
-    couunt(){
+    count(){
       return this.$store.getters.getterCount(1)
     }
   }
