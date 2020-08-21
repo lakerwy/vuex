@@ -27,7 +27,12 @@ const actions= {
         return commit('reduceCount', n);
     }
 }
-
+//计算属性传参
+// computed: {
+//         text:()=>(n)=>{
+//             return require('../assets/img/f1_'+n+'.jpg')
+//         }
+//     }
 //getters传参
 const getters={
     getterCount: (state)=>(n)=>{
